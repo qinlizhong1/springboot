@@ -17,6 +17,7 @@
         <module>kafka</module>
         <module>mogodb</module>
         <module>habse</module>
+        <module>example</module>
     </modules>
 
 
