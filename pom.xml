@@ -16,7 +16,8 @@
         <module>jdbc</module>
         <module>kafka</module>
         <module>mogodb</module>
-        <module>swagger</module>
+        <module>habse</module>
+        <module>example</module>
     </modules>
 
 
