@@ -1,10 +1,10 @@
-package com.qin.jdbc;
+package com.qin.habse;
 
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;
 
 @SpringBootTest
-class JdbcApplicationTests {
+class HabseApplicationTests {
 
     @Test
     void contextLoads() {
