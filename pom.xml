@@ -18,6 +18,7 @@
         <module>mogodb</module>
         <module>example-package</module>
         <module>example-01-config</module>
+        <module>example-03-jdbc</module>
     </modules>
 
 
