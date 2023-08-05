@@ -8,9 +8,9 @@
         <version>0.0.1-SNAPSHOT</version>
     </parent>
     <groupId>com.qin</groupId>
-    <artifactId>mybatis</artifactId>
+    <artifactId>example-04-mybatis</artifactId>
     <version>0.0.1-SNAPSHOT</version>
-    <name>mybatis</name>
+    <name>example-04-mybatis</name>
     <description>Demo project for Spring Boot</description>
 
     <!-- 整合mybatis引入的依赖 -->

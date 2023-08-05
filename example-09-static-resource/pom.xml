@@ -8,9 +8,9 @@
         <version>0.0.1-SNAPSHOT</version>
     </parent>
     <groupId>com.qin</groupId>
-    <artifactId>example-05-static-resource</artifactId>
+    <artifactId>example-09-static-resource</artifactId>
     <version>0.0.1-SNAPSHOT</version>
-    <name>example-05-static-resource</name>
+    <name>example-09-static-resource</name>
     <description>Demo project for Spring Boot</description>
 
 
