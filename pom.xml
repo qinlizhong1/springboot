@@ -17,6 +17,7 @@
         <module>kafka</module>
         <module>mogodb</module>
         <module>example-package</module>
+        <module>example-01-config</module>
     </modules>
 
 
