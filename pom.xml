@@ -13,11 +13,10 @@
         <module>quartz</module>
         <module>redis</module>
         <module>elasticsearch</module>
-        <module>jdbc</module>
+        <module>mybatis</module>
         <module>kafka</module>
         <module>mogodb</module>
-        <module>habse</module>
-        <module>example</module>
+        <module>example-package</module>
     </modules>
 
 
