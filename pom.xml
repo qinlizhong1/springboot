@@ -11,7 +11,7 @@
 
     <modules>
         <module>quartz</module>
-        <module>redis</module>
+        <module>example-13-redis</module>
         <module>elasticsearch</module>
         <module>example-04-mybatis</module>
         <module>kafka</module>
@@ -19,9 +19,23 @@
         <module>example-package</module>
         <module>example-01-config</module>
         <module>example-03-jdbc</module>
+        <module>example-05-mybatisplus</module>
         <module>example-09-static-resource</module>
-    </modules>
+        <module>example-10-bootstrap</module>
+        <module>example-11-thymeleaf</module>
+        <module>example-12-freemarker</module>
+        <module>example-13-redis</module>
+        <module>example-14-redis-jedis</module>
+        <module>example-15-cache</module>
+        <module>example-16-cache-ehcache</module>
+        <module>example-17-cache-guava</module>
+        <module>example-20-scheduler</module>
+        <module>example-21-quartz</module>
+        <module>example-23-logback</module>
+        <module>example-24-log4j2</module>
+        <module>example-26-file</module>
 
+    </modules>
 
     <groupId>com.qin</groupId>
     <artifactId>springboot</artifactId>
