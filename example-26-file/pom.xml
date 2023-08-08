@@ -14,6 +14,14 @@
     <description>Demo project for Spring Boot</description>
 
 
+    <!-- Csv处理工具依赖 -->
+    <dependencies>
+        <dependency>
+            <groupId>cn.hutool</groupId>
+            <artifactId>hutool-all</artifactId>
+            <version>5.7.10</version>
+        </dependency>
+    </dependencies>
     <build>
         <plugins>
             <plugin>
