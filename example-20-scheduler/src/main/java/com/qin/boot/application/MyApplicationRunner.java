@@ -22,12 +22,12 @@ public class MyApplicationRunner implements ApplicationRunner {
     public void run(ApplicationArguments args) throws Exception {
         System.out.println("--------------  我是ApplicationRunner方式的启动任务 优先级10  ---------------");
         List<String> nonOptionArgs = args.getNonOptionArgs();
-        System.out.println("MyApplicationRunner>>>"+nonOptionArgs);
+        System.out.println("1： MyApplicationRunner>>>"+nonOptionArgs);
         Set<String> optionNames = args.getOptionNames();
         for (String key : optionNames) {
-            System.out.println("MyApplicationRunner>>>"+key + ":" + args.getOptionValues(key));
+            System.out.println("2： MyApplicationRunner>>>"+key + ":" + args.getOptionValues(key));
         }
         String[] sourceArgs = args.getSourceArgs();
-        System.out.println("MyApplicationRunne>>>"+ Arrays.toString(sourceArgs));
+        System.out.println("3： MyApplicationRunne>>>"+ Arrays.toString(sourceArgs));
     }
 }

@@ -9,7 +9,7 @@ import java.util.Date;
 @Component
 public class MyScheduledJobs {
 
-    //单位ms
+    //单位ms，  如果间隔时间小于任务执行时间，上一次任务执行完成下一次任务就立即执行。如果间隔时间大于任务执行时间，就按照每隔X时间运行一次
     @Scheduled(initialDelay = 8000, fixedRate = 3000)
     public void sayHelloFixedRate() throws InterruptedException {
         SimpleDateFormat simpleDateFormat=new SimpleDateFormat("yyyy-MM-dd HH:mm:ss.SSS");

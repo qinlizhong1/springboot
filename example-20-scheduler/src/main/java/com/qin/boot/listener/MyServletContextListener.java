@@ -3,6 +3,7 @@ package com.qin.boot.listener;
 import javax.servlet.ServletContextEvent;
 import javax.servlet.ServletContextListener;
 
+//在系统启动时，使用 Listener 监听器进行初始化和销毁操作
 public class MyServletContextListener implements ServletContextListener {
     /**
      容器启动时

@@ -8,6 +8,7 @@ import org.springframework.scheduling.annotation.EnableScheduling;
 import java.text.SimpleDateFormat;
 import java.util.Date;
 
+//cron表达式在线生成器：  https://cron.qqe2.com/
 @EnableScheduling
 @SpringBootApplication
 public class ExampleSchedulerApplication {

@@ -34,6 +34,8 @@
         <module>example-23-logback</module>
         <module>example-24-log4j2</module>
         <module>example-26-file</module>
+        <module>example-31-shardingjdbc</module>
+
 
     </modules>
 
