@@ -1,7 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <configuration debug="false">
     <!--定义日志文件的存储地址 勿在 LogBack 的配置中使用相对路径-->
-    <property name="LOG_HOME" value="/Users/qin/logs" />
+    <!-- <property name="LOG_HOME" value="/Users/qin/logs/springBoot/logback" /> -->
+    <springProperty name="LOG_HOME" source="global.logback.path" />
     <!-- 控制台输出 -->
     <appender name="STDOUT" class="ch.qos.logback.core.ConsoleAppender">
         <!--此日志appender是为开发使用，只配置最底级别，控制台输出的日志级别是大于或等于此级别的日志信息-->
@@ -20,7 +21,7 @@
         <!-- 日志记录器的滚动策略，按大小和日期记录 -->
         <rollingPolicy class="ch.qos.logback.core.rolling.SizeAndTimeBasedRollingPolicy">
             <!--日志文件输出的文件名-->
-            <FileNamePattern>${LOG_HOME}/springBoot/logback/myapp.%d{yyyy-MM-dd}.%i.log</FileNamePattern>
+            <FileNamePattern>${LOG_HOME}/myapp.%d{yyyy-MM-dd}.%i.log</FileNamePattern>
             <!-- 日志尺寸的阈值 -->
             <maxFileSize>16KB</maxFileSize>
             <!--日志文件保留天数-->
