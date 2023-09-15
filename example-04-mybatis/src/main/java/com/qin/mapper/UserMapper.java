@@ -6,7 +6,6 @@ import org.springframework.stereotype.Component;
 import org.springframework.stereotype.Repository;
 
 import java.util.List;
-@Mapper
 public interface UserMapper {
     //void addUser(User user);
     List<User> findAll();
