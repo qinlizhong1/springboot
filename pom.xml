@@ -36,6 +36,7 @@
         <module>example-26-file</module>
         <module>example-31-shardingjdbc</module>
         <module>example-34-mail</module>
+        <module>example-35-hbase-client</module>
 
 
     </modules>

@@ -1,0 +1,21 @@
+#日志配置文件所在目录
+logging:
+  config: classpath:logback-spring.xml
+
+#日志文件存放目录,可以在logback-spring.xml中被如下引用：
+# <springProperty name="LOG_HOME" source="global.logback.path" />
+global:
+  logback:
+    path: /Users/qin/logs/springBoot/hbase-client
+
+#habse连接的zookeeper地址
+bigdata:
+  config:
+    hBaseConfigMap: {hbase.zookeeper.quorum : 'localhost:2181,localhost:2182,localhost:2183'}
+hbase:
+  config:
+    hbase:
+      zookeeper:
+        property:
+          clientPort: 2181
+        quorum: localhost
