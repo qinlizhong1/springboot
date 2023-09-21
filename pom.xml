@@ -16,7 +16,6 @@
         <module>example-04-mybatis</module>
         <module>kafka</module>
         <module>mogodb</module>
-        <module>example-package</module>
         <module>example-01-config</module>
         <module>example-03-jdbc</module>
         <module>example-05-mybatisplus</module>
@@ -37,6 +36,10 @@
         <module>example-31-shardingjdbc</module>
         <module>example-34-mail</module>
         <module>example-35-hbase-client</module>
+        <module>example-37-hdfs</module>
+        <module>example-38-hadoop</module>
+        <module>example-43-kafka-producer</module>
+        <module>example-44-kafka-consumer</module>
 
 
     </modules>

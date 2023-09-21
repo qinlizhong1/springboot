@@ -8,31 +8,16 @@
         <version>0.0.1-SNAPSHOT</version>
     </parent>
     <groupId>com.qin</groupId>
-    <artifactId>example-package</artifactId>
+    <artifactId>example-43-kafka-producer</artifactId>
     <version>0.0.1-SNAPSHOT</version>
-    <name>example-package</name>
+    <name>example-43-kafka-producer</name>
     <description>Demo project for Spring Boot</description>
 
-    <!--1.将项目的打包形式显示声明成War包形式-->
-    <packaging>war</packaging>
-
     <dependencies>
+        <!-- kafka依赖 -->
         <dependency>
-            <groupId>org.springframework.boot</groupId>
-            <artifactId>spring-boot-devtools</artifactId>
-            <optional>true</optional>
-        </dependency>
-
-        <dependency>
-            <groupId>org.springframework.boot</groupId>
-            <artifactId>spring-boot-starter-tomcat</artifactId>
-            <scope>provided</scope>   <!--去掉内嵌tomcat-->
-        </dependency>
-
-        <dependency>
-            <groupId>org.apache.tomcat.embed</groupId>
-            <artifactId>tomcat-embed-jasper</artifactId>
-            <scope>provided</scope>  <!--去掉使用内嵌tomcat解析jsp-->
+            <groupId>org.springframework.kafka</groupId>
+            <artifactId>spring-kafka</artifactId>
         </dependency>
     </dependencies>
 

@@ -21,6 +21,8 @@ class Example35HbaseClientApplicationTests {
         Assertions.assertEquals(true, res);
     }
 
+
+
     @Test
     @Order(2)
     void testsExists() {
@@ -31,13 +33,21 @@ class Example35HbaseClientApplicationTests {
 
 
 
+    @Test
+    @Order(3)
+    void TestInsertSingleColumnRecords(){
+        boolean res = HBaseClientUtils.insertSingleColumnRecords("hbaseclient:test1", "row1"
+                                    , "cf1", "name", "qin");
+        Assertions.assertEquals(true, res);
+    }
+
 
 
 
 
 
     @Test
-    @Order(3)
+    @Order(7)
     void testsDeleteTable() {
         boolean res = HBaseClientUtils.deleteTable("hbaseclient:test1");
         Assertions.assertEquals(true, res);

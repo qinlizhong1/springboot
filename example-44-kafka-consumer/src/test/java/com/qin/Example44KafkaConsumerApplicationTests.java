@@ -1,10 +1,10 @@
-package com.qin.war;
+package com.qin;
 
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;
 
 @SpringBootTest
-class HabseApplicationTests {
+class Example44KafkaConsumerApplicationTests {
 
     @Test
     void contextLoads() {

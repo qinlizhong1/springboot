@@ -186,7 +186,7 @@ public class HBaseClientUtils {
      * @param value       列的值
      */
         public static boolean insertSingleColumnRecords(String tableName,String row,String columnFamily,
-                                                 String column,String value){
+                                                 String column, String value){
         try{
             //1、获取表对应的Table对象
             Table table = getTable(tableName);
