@@ -40,7 +40,7 @@
         <module>example-38-hadoop</module>
         <module>example-43-kafka-producer</module>
         <module>example-44-kafka-consumer</module>
-
+        <module>example-42-actuator</module>
 
     </modules>
 
